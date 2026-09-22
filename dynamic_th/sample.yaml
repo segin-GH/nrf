@@ -1,0 +1,9 @@
+sample:
+  name: Dynamic Threads Sample
+tests:
+  sample.basic.dynamic_th:
+    tags:
+      - thread
+      - dynamic
+    integration_platforms:
+      - nrf5340dk/nrf5340/cpuapp
